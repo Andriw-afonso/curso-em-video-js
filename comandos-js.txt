@@ -1,0 +1,24 @@
+// Tamanho da String
+variavel.length
+
+// Transformar as letras em Maiúsculas
+variavel.toUpperCase()
+
+// Transformar as letras para Minusculas
+variavel.toLowerCase()
+
+// Transformar o numero para inteiro e numero real
+Number.parseInt(numero)
+Number.parseFloat(numero)
+
+// Mensagem ao usuario 
+window.alert('Mensagem')
+
+// Coletando dados do usuario
+window.prompt('Digite seu nome ')
+
+// Enviar pergunta com resposta 
+window.confirm('Gostou do curso ?')
+
+// Definindo variavel
+var n1 = 5

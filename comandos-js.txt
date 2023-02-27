@@ -22,3 +22,15 @@ window.confirm('Gostou do curso ?')
 
 // Definindo variavel
 var n1 = 5
+
+// Escrevendo na tela 
+document.write(`Seu nome tem ${nome.length} letras`)
+
+// Definindo a quantidade de casas decimais
+numero.toFixed(2)
+
+// Trocando caracteres
+string.replace('.',';')
+
+// Formatando o número em moeda
+numero.toLocaleString('pt-BR', {style: 'currency',currency:'BRL'})

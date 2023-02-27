@@ -34,3 +34,29 @@ string.replace('.',';')
 
 // Formatando o número em moeda
 numero.toLocaleString('pt-BR', {style: 'currency',currency:'BRL'})
+
+// Incrementando a varialvel
+varialvel += 1
+variavel -= 1
+variavel *= 1
+variavel /= 1
+variavel **= 2
+variavel %= 5
+
+// Incrementando 1 a variavel
+variavel ++
+variavel --
+
+// Operador de identidade
+5 === '5' // Verificando se são do mesmo valor e tipo.
+
+// Operadores lógicos
+!  // NOT 
+&& // AND
+|| // OR
+
+// Operador Ternario , igual ao if
+teste  ?  true  :  false
+media >= 7  ?   "Aprovado"  :  "Reprovado"
+var numero  1<10 ? 5 : 10
+

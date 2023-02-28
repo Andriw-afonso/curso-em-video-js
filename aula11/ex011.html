@@ -7,24 +7,22 @@
     <title>Nacionalidade</title>
 </head>
 <body>
-    <H1>Nacionalidade</H1>
+    <h1>Sabendo a sua nacionalidade ...</h1>
+    Digite onde você nasceu : <input type="text" name="txtn1" id="txtn1">
+    <input type="button" value="Enviar", onclick = "checar()">
     <div id = "res">
-    Digíte a sua nacionalidade : <input type="string" name="txtn" id="txtn">
-    <input type="button" value="Verificar", onclick = "checar()">
-    
     <script>
         function checar(){
-            var mensagem = window.document.getElementById("txtn")
-            var res = window.document.querySelector("div#res")
-            res.innerHTML = `<p> Ainda não sei onde você mora.</p>`
-
-            if (mensagem != 'Brasil'){
-                res.HTML += `<p>Você é Brasileiro</p>`
-            } 
-
+            var mensagem = String(window.document.getElementById("txtn1").value)
+            var res = window.document.querySelector("div#res")            
+            
+            if (mensagem == 'brasil'){
+                res.innerHTML = `<p>Você é um natívo Brasileiro</p>`
+            }else{
+                res.innerHTML = `<p> Você é estrangeiro e é nascido em ${mensagem} </p>`
+            }
+            
         }
-
-        
     </script>
 </body>
 </html>

@@ -69,3 +69,8 @@ if (condicão){
 
 // Escrevendo mensagem no console do node js
 console.log('Hello World !!!')
+
+// Comando switch
+switch (expressão){
+    
+}

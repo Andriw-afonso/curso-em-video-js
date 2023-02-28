@@ -60,3 +60,12 @@ teste  ?  true  :  false
 media >= 7  ?   "Aprovado"  :  "Reprovado"
 var numero  1<10 ? 5 : 10
 
+// Estrutura condicional if
+if (condicão){
+
+}else{
+
+}
+
+// Escrevendo mensagem no console do node js
+console.log('Hello World !!!')

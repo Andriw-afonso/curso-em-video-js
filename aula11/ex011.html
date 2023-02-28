@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nacionalidade</title>
+</head>
+<body>
+    <H1>Nacionalidade</H1>
+    <div id = "res">
+    Digíte a sua nacionalidade : <input type="string" name="txtn" id="txtn">
+    <input type="button" value="Verificar", onclick = "checar()">
+    
+    <script>
+        function checar(){
+            var mensagem = window.document.getElementById("txtn")
+            var res = window.document.querySelector("div#res")
+            res.innerHTML = `<p> Ainda não sei onde você mora.</p>`
+
+            if (mensagem != 'Brasil'){
+                res.HTML += `<p>Você é Brasileiro</p>`
+            } 
+
+        }
+
+        
+    </script>
+</body>
+</html>

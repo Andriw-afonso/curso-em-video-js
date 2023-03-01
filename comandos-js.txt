@@ -72,5 +72,31 @@ console.log('Hello World !!!')
 
 // Comando switch
 switch (expressão){
+    cas1 valor1:
+
+    break
+
+    case2 valor2:
+
+    break
+
+    default:
+
+    break
+
+}
+
+// Comando while
+while (condição){
+    execute
+}
+
+// Comando do
+do {
+
+} while (condição)
+
+// Comando for 
+for (inicio ; teste ; incremento){
     
 }

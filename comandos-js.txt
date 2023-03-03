@@ -100,3 +100,31 @@ do {
 for (inicio ; teste ; incremento){
     
 }
+
+// Acrescentando valores a uma array
+array.push(valor)
+
+// Comprimento de uma array
+array.length
+
+// Ordenando os valores em ordem crescente em uma array
+array.sort()
+
+// Percorrendo uma array
+for (let posicao in vetor){
+    console.log(vetor[posicao])
+}
+
+// Buscando o index de um vetor
+vetor.indexOf(valor)
+
+// Declarando uma função com parametros
+function acao(param){
+
+    return res
+}
+
+acao(5)
+
+// Declarando um dicionário
+let amigo = {nome:'josé, sexo:'masculino', idade:56}
